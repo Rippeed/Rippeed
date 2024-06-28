@@ -1,0 +1,10 @@
+function hello()
+  print("test")
+  local a = math.random(1, 100)
+  local b = a + a * 2 - 3
+  return a + b
+end
+
+local c = hello()
+hello()
+print(c)
